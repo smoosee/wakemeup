@@ -42,5 +42,13 @@
   "devDependencies": {
     "auto": "^10.3.0",
     "pm2": "^4.4.0"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "first-time-contributor"
+    ]
   }
 }

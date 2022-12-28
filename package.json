@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "Tool to keep windows machine awake and hotkey to turn monitor off",
   "main": "index.js",
+  "bin": {
+    "stay-awake": "index.js"
+  },
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

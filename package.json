@@ -26,7 +26,11 @@
     "url": "https://github.com/sheriffMoose/stay-awake/issues"
   },
   "homepage": "https://github.com/sheriffMoose/stay-awake#readme",
-  "scripts":{
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
     "release": "auto shipit"
   },
   "dependencies": {

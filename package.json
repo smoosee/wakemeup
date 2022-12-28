@@ -26,6 +26,9 @@
     "url": "https://github.com/sheriffMoose/stay-awake/issues"
   },
   "homepage": "https://github.com/sheriffMoose/stay-awake#readme",
+  "scripts":{
+    "release": "auto shipit"
+  },
   "dependencies": {
     "lock-your-windows": "^0.0.1",
     "node-global-key-listener": "^0.1.1",
@@ -33,6 +36,7 @@
     "turn-off-display": "^0.2.0"
   },
   "devDependencies": {
+    "auto": "^10.3.0",
     "pm2": "^4.4.0"
   }
 }

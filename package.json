@@ -1,6 +1,6 @@
 {
   "name": "@sheriffmoose/stay-awake",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Tool to keep windows machine awake and hotkey to turn monitor off",
   "main": "index.js",
   "bin": {

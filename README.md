@@ -1,11 +1,11 @@
-# @sheriffMoose/stay-awake
+# stay-awake
 Tool to keep windows machine awake and hotkey to turn monitor off
 
 
 ## Installation
 Simply run
 ```
-npm i -g @sheriffMoose/stay-awake
+npm i -g @sheriffmoose/stay-awake
 ```
 
 Now you will be able to run

@@ -1,5 +1,5 @@
 <div style="text-align:center;" align="center">
-    <h1>Stay Awake</h1>
+    <h1>wakemeup</h1>
     <p>Tool to keep windows machine awake and hotkey to turn monitor off.</p>
     
 [![][img.release]][link.release]

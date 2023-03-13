@@ -1,15 +1,15 @@
 {
-  "name": "@sheriffmoose/stay-awake",
+  "name": "@smoosee/wakemeup",
   "version": "1.0.9",
   "description": "Tool to keep windows machine awake and hotkey to turn monitor off",
   "main": "index.js",
   "bin": {
-    "stay-awake": "index.js"
+    "wakemeup": "index.js"
   },
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sheriffMoose/stay-awake.git"
+    "url": "git+https://github.com/sheriffMoose/wakemeup.git"
   },
   "keywords": [
     "stay",
@@ -23,9 +23,9 @@
   "author": "Mostafa Sherif",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sheriffMoose/stay-awake/issues"
+    "url": "https://github.com/sheriffMoose/wakemeup/issues"
   },
-  "homepage": "https://github.com/sheriffMoose/stay-awake#readme",
+  "homepage": "https://github.com/sheriffMoose/wakemeup#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

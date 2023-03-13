@@ -3,11 +3,11 @@
 const { execSync } = require('child_process');
 const [node, path, action] = process.argv;
 if (action === 'pm2') {
-    execSync(`pm2 start --name stay-awake ${path}`, { stdio: 'inherit' });
+    execSync(`pm2 start --name wakemeup ${path}`, { stdio: 'inherit' });
     process.exit(1);
 }
 
-console.log('**** Running stay-awake.js ****');
+console.log('**** Running wakemeup.js ****');
 
 const keySender = require("node-key-sender");
 const lockYourWindows = require('lock-your-windows');

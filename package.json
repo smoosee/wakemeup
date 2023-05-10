@@ -1,6 +1,6 @@
 {
   "name": "@smoosee/wakemeup",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Tool to keep windows machine awake and hotkey to turn monitor off",
   "main": "index.js",
   "bin": {

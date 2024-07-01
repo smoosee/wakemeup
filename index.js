@@ -10,11 +10,11 @@ if (action === 'pm2') {
 console.log('**** Running wakemeup.js ****');
 
 const keySender = require("node-key-sender");
-const lockYourWindows = require('lock-your-windows');
+const winlock = require('./winlock.node');
 
 
 const interval = setInterval(() => {
-    const isLocked = lockYourWindows.isLocked();
+    const isLocked = winlock.isLocked();
     if (isLocked) {
         console.log("**** Windows is currently locked ****");
     } else {
